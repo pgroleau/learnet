@@ -1,16 +1,14 @@
 body {
-    margin: auto;
-    max-width: 720px;
+    max-width: 800px;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 400;
     font-size: 1em;
+    margin: auto;
 }
 
 .header {
-    margin: auto;
-    max-width: 720px;
     text-align: center;
-    padding: 2em 2em 1.5em 2em;
+    padding: .25em 2em 0em 2em;
     color: #FC7138;
     display: block;
     text-decoration: none;
@@ -21,35 +19,28 @@ body {
 }
 
 article {
-    margin: auto;
-    max-width: 720px;
-    padding: 1em;
-}
-
-.nolink {
-    color: inherit;
-    text-decoration: none;
+    padding: 0em 1em 0em 1em;
 }
 
 h1 {
-    margin: auto;
-    max-width: 720px;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 700;
     font-size: 3em;
 }
 
 h2 {
-    margin: auto;
-    max-width: 720px;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 400;
     font-size: 2em;
 }
 
+h3 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 400;
+    font-size: 1.5em;
+}
+
 .homelink {
-    margin: auto;
-    max-width: 720px;
     font-family: 'PT Sans Narrow', sans-serif;
     font-weight: 400;
     font-size: 1.1em;
@@ -64,31 +55,17 @@ h2 {
 }
 
 .wrapper {
-    margin: auto;
-    max-width: 720px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-gap: 1em;
-    padding: 0em 1em 0em 1em
-}
-
-.navbar {
-    margin: auto;
-    max-width: 720px;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
-    padding: 0em 1em 0em 1em
+    padding: 1em 1em 0em 1em;
 }
 
 .wrapper > div{
     display: block;
     padding: 1em;
     border-radius: 5px;
-}
-
-.navbar > div{
-    padding: .33em;
-    display: block;
+    text-align: center;
 }
 
 .tan {
@@ -109,8 +86,6 @@ h2 {
 }
 
 footer {
-    margin: auto;
-    max-width: 720px;
     text-align: right;
     padding: 2em;
     font-weight: 400;
@@ -119,6 +94,24 @@ footer {
 
 img {
     display: block;
-    max-width: 720px;
     padding: 1em;
+}
+
+a {
+    color: #FC7138;
+    text-decoration: underline;
+}
+
+a:hover {
+    opacity: .5;
+}
+
+nav {
+    display: block;
+    padding: 0em 1em 0em 1em;
+}
+
+.nolink {
+    color: inherit;
+    text-decoration: none;
 }
